@@ -1,0 +1,38 @@
+#mostrarenmobile{
+    display: block;
+    height: 900px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15%;
+    
+}
+
+#mostrarenmobile div{
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#mostrarenmobile img{
+    width: 120px;
+    height:auto;   
+}
+
+#mostrarenpc{
+    display: none;
+}
+
+@media screen and (min-width: 800px) { 
+    /* Con esto lo ocultamos en la pc y se deja visible solo en mobile */
+	#mostrarenmobile{
+		display: none;
+    }
+    #mostrarenpc{
+		display: block;
+	}
+}
+
+

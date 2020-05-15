@@ -1,0 +1,205 @@
+/*HEADERS*/
+
+
+/* Navbar*/
+
+header {
+    display: inline-flex;
+    width: 100%;
+    height: 55px;
+    background-attachment: fixed;
+    background: -webkit-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -webkit-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -webkit-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -webkit-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -moz-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -moz-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -moz-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -moz-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -o-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -o-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -o-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -o-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -ms-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -ms-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -ms-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -ms-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), radial-gradient(circle at bottom left, rgba(22, 20, 34, 0.9) 25%, transparent 100%), radial-gradient(circle at 35% 40%, rgba(1, 162, 255, 0.7), transparent), radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background-blend-mode: luminosity;
+    position: fixed;
+    text-transform: uppercase;
+    z-index: 99;
+}
+
+#title-bar {
+    display: block;
+    padding-top: 1%;
+    margin-left: 0.5%;
+    height: inherit;
+    font-family: 'merriweather', serif;
+    text-decoration: none;
+    text-transform: none;
+    color: whitesmoke;
+    transition: all 300ms;
+    font-size: 20px;
+}
+
+#title-bar a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header ul {
+    display: block;
+    width: auto;
+    height: inherit;
+    margin: auto;
+    margin-right: 5%;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+header ul li a {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: inherit;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: all 300ms;
+}
+
+header ul li a:hover {
+    background-color: rgba(10, 107, 163, 0.356);
+    transform: scale(0.9, 0.9);
+}
+
+.actived {
+    background-color: rgba(10, 107, 163, 0.356);
+    transform: scale(0.9, 0.9);
+}
+
+#logo a:hover {
+    background-color: rgba(10, 107, 163, 0);
+}
+
+#logo {
+    display: none;
+    font-family: 'Courgette';
+    text-transform: lowercase;
+    font-size: 40px;
+}
+
+#login_icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#login_icon:hover {
+    transform: scale(0.8);
+}
+
+#logout_icon {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+#logout_icon:hover {
+    transform: scale(0.8);
+}
+
+#imagen_logo {
+    font-family: 'oswald';
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+#query {
+    display: none;
+    width: 150px;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: rgb(42, 124, 161);
+    border-radius: 8px;
+    position: fixed;
+    right: 20px;
+    top: 50px;
+}
+
+#query span {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+#query button {
+    width: 40px;
+    padding: 1%;
+    background-color: rgb(16, 41, 124);
+    color: aliceblue;
+    border-radius: 8px;
+}
+
+#query button:hover {
+    background-color: rgba(16, 41, 124, 0.562);
+    transform: scale(0.8);
+}
+
+
+/*------------------RESPONSIVE--------------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /*HEADER*/
+    header {
+        height: 40px;
+    }
+    #title-bar {
+        padding-top: 2%;
+        font-size: 10px;
+        margin-top: 6px;
+    }
+    header ul {
+        display: block;
+        width: auto;
+        height: inherit;
+        margin: auto;
+        margin-right: 2%;
+    }
+    header ul li {
+        display: inline-block;
+        margin: 0px auto;
+        text-align: center;
+        line-height: 30px;
+    }
+    header ul li a {
+        padding-right: 2px;
+        padding-left: 2px;
+        font-size: 10px;
+    }
+    #imagen_logo {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    #index_btn {
+        display: none;
+    }
+    #login_icon {
+        width: 20px;
+        height: 20px;
+        margin-top: 4px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    #logout_icon {
+        display: none;
+        width: 20px;
+        height: 20px;
+        margin-top: 4px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}

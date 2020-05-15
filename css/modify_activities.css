@@ -1,0 +1,18 @@
+#container_existingactivities {
+    display: none;
+}
+
+.buttons {
+    width: 70px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: rgb(30, 30, 121);
+    color: aliceblue;
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+textarea {
+    box-sizing: content-box;
+    width: 100%;
+}

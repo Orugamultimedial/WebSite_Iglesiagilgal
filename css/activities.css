@@ -1,0 +1,167 @@
+            /*activities*/
+            
+            #container_article {
+                width: 95%;
+                height: auto;
+                box-sizing: content-box;
+                padding: 2%;
+                padding-top: 8%;
+                /*background-color: #0407061c;*/
+                background-color: rgba(0, 0, 0, 0.322);
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 8px;
+            }
+            
+            #article {
+                display: block;
+                width: 95%;
+                height: auto;
+                box-sizing: content-box;
+                padding: 1%;
+                padding-left: 2%;
+                padding-right: 2%;
+                background-color: rgba(1, 214, 252, 0.178);
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+                border-radius: 8px;
+                border: 1px solid white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            #div_article_info {
+                width: 95%;
+                margin-right: 10px;
+                box-sizing: content-box;
+                padding-bottom: 2%;
+            }
+            
+            #div_article_header {
+                display: inline-flex;
+                width: 95%;
+            }
+            
+            #article img {
+                width: 150px;
+                height: auto;
+                padding: 2%;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+            }
+            
+            #article h1 {
+                color: aliceblue;
+                margin-top: 15px;
+                margin-bottom: 20px;
+                font-size: 28px;
+            }
+            
+            #article h2 {
+                color: aliceblue;
+                text-align: left;
+                font-size: 20px;
+            }
+            
+            #article h5 {
+                display: none;
+                color: aliceblue;
+            }
+            
+            #article span {
+                font-size: 13px;
+                text-align: justify;
+                color: aliceblue;
+            }
+            
+            #article h4 {
+                display: none;
+                margin-top: 15px;
+                float: right;
+                text-align: left;
+                color: aliceblue;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            
+            #article h3 {
+                display: none;
+                color: aliceblue;
+                font-size: 12px;
+                margin-top: 15px;
+                margin-bottom: 10px;
+            }
+            
+            #div_article_header_info {
+                margin-left: 2%;
+            }
+            
+            #container_shows {
+                width: 80%;
+                display: inline-flex;
+                margin-left: auto;
+            }
+            
+            #show_schedule {
+                width: 30%;
+            }
+            
+            #show_activities {
+                width: 70%;
+            }
+            /*------------------RESPONSIVE--------------------------*/
+            
+            @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+                #article {
+                    width: 95%;
+                    box-sizing: content-box;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                }
+                #article img {
+                    width: 80px;
+                    height: 80px;
+                    padding: 2%;
+                    border-radius: 8px;
+                }
+                #container_shows {
+                    width: 100%;
+                }
+                #div_article_header {
+                    display: inline-flex;
+                    width: 95%;
+                }
+                #article img {
+                    width: 80px;
+                    height: 80px;
+                    padding: 2%;
+                }
+                #article h1 {
+                    font-size: 23px;
+                }
+                #article h2 {
+                    font-size: 18px;
+                    text-align: left;
+                }
+                #article h5 {
+                    display: none;
+                }
+                #article span {
+                    text-align: justify;
+                    font-size: 18px;
+                }
+                #article h4 {
+                    display: none;
+                }
+                #show_schedule {
+                    display: none;
+                }
+                #show_activities {
+                    width: 88%;
+                }
+                #container_article {
+                    width: 110%;
+                    padding-top: 14%;
+                }
+            }

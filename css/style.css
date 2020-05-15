@@ -1,0 +1,68 @@
+/*custom fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Acme|Courgette|Oswald|Pacifico|Satisfy|Slabo+27px&display=swap');
+
+/*Generals Styles*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'oswald';
+    font-size: 20px;
+    background-attachment: fixed;
+    background: -webkit-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -webkit-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -webkit-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -webkit-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -moz-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -moz-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -moz-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -moz-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -o-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -o-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -o-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -o-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: -ms-radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), -ms-radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), -ms-radial-gradient(circle at 35% 40%, rgba(1, 255, 224, .7), transparent), -ms-radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background: radial-gradient(circle at top right, rgba(20, 20, 34, .9) 25%, transparent 100%), radial-gradient(circle at bottom left, rgba(20, 20, 34, .9) 25%, transparent 100%), radial-gradient(circle at 35% 40%, rgba(1, 162, 255, 0.7), transparent), radial-gradient(circle at 65% 65%, rgba(41, 172, 237, .9), transparent);
+    background-blend-mode: luminosity;
+}
+
+
+/*Limpia el flotado entre los elementos*/
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+
+/*container*/
+
+#content {
+    width: 90%;
+    height: auto;
+    min-height: 1000px;
+    margin: auto;
+    padding-top: 90px;
+    box-shadow: 0px 0px 25px rgb(97, 96, 96);
+    background: transparent;
+    overflow: auto;
+}
+
+
+/*footer*/
+
+footer {
+    min-height: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    padding-top: 1%;
+    opacity: 40%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer:hover a:hover {
+    color: #1a465c;
+}

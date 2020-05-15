@@ -1,0 +1,103 @@
+/*Schedule*/
+
+#schedule {
+    display: inline-flex;
+    width: 22%;
+    height: 455px;
+    margin-top: 60px;
+    margin-left: auto;
+    background-color: rgba(16, 52, 58, 0.178);
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    text-transform: uppercase;
+    position: fixed;
+    left: 15px;
+    top: 30px;
+}
+
+.schedule_days {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+}
+
+.desactived {
+    width: 10px;
+    box-sizing: content-box;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    margin-top: 40px;
+}
+
+.desactived:hover {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    background: radial-gradient(circle at top right, rgba(100, 62, 27, 0.9) 25%, transparent 100%), radial-gradient(circle at bottom left, rgba(68, 28, 21, 0.9) 25%, transparent 100%), radial-gradient(circle at 35% 40%, rgba(202, 227, 227, .7), transparent), radial-gradient(circle at 65% 65%, rgba(183, 218, 232, .7), transparent);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.schedule_days h5 {
+    text-decoration: none;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.actived {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    background: radial-gradient(circle at top right, rgba(100, 62, 27, 0.9) 25%, transparent 100%), radial-gradient(circle at bottom left, rgba(68, 28, 21, 0.9) 25%, transparent 100%), radial-gradient(circle at 35% 40%, rgba(202, 227, 227, .7), transparent), radial-gradient(circle at 65% 65%, rgba(183, 218, 232, .7), transparent);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.activities {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
+    box-sizing: content-box;
+    background-color: rgba(255, 255, 255, 0.774);
+    border: 1px solid aliceblue;
+    border-radius: 8px;
+    margin-top: 20px;
+    position: fixed;
+    left: 28px;
+    right: 145px;
+}
+
+h3,
+h2 {
+    text-align: center;
+}
+
+#info_monday {
+    display: block;
+}
+
+#info_monday p {
+    padding: 2%;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+
+/*------------------RESPONSIVE--------------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    #schedule {
+        display: none;
+    }
+}

@@ -1,0 +1,62 @@
+/* Social Buttones */
+
+.social {
+    width: 40px;
+    position: fixed;
+    top: 250px;
+    right: 8%;
+}
+
+#whatsapp-logo {
+    width: 48px;
+    height: 48px;
+}
+
+#whatsapp-logo:hover {
+    width: 52px;
+    height: 52px;
+}
+
+#linkedin-logo {
+    width: 45px;
+    height: 45px;
+}
+
+#linkedin-logo:hover {
+    width: 49px;
+    height: 49px;
+}
+
+#gmail-logo {
+    width: 45px;
+    height: 45px;
+}
+
+#gmail-logo:hover {
+    width: 49px;
+    height: 49px;
+}
+
+
+/*------------------RESPONSIVE--------------------------*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .social {
+        width: 40px;
+        position: fixed;
+        top: 120px;
+        right: 0.5%;
+    }
+    #whatsapp-logo,
+    #linkedin-logo,
+    #gmail-logo {
+        width: 30px;
+        height: 30px;
+    }
+    #whatsapp-logo:hover,
+    #linkedin-logo:hover,
+    #gmail-logo:hover {
+        width: 49px;
+        height: 49px;
+    }
+}

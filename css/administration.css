@@ -1,0 +1,9 @@
+/*ADMINISTRATION*/
+
+#container_administration_info {
+    width: 60%;
+    box-sizing: content-box;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
